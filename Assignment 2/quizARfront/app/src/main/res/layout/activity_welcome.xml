@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity"
+    android:background="@drawable/gradient">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:textSize="60sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/gayeng"
+        android:textStyle="bold"
+        android:text="Quiz ARena" />
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:fontFamily="@font/reef"
+        android:text="Welcome"
+
+        />
+    <Button
+        android:id="@+id/joinLobbyButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:backgroundTint="#2196F3"
+        android:text="Join Lobby"
+        android:background="@drawable/custom_button"
+
+        />
+
+    <Button
+
+        android:id="@+id/optionsButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/custom_button"
+        android:backgroundTint="#ffffff"
+        android:text="Options"
+
+        />
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="550dp"
+        android:backgroundTint="#2196F3"
+        android:text="Logout"
+        android:background="@drawable/custom_button"
+
+        />
+
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/joinLobbyTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="50dp"
+        android:text="Join Lobby"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/reef"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        />
+
+    <TextView
+        android:id="@+id/lobbiesTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="150dp"
+        android:fontFamily="@font/reef"
+        android:text="Lobbies:"
+        android:textColor="@color/white"
+        android:textSize="23sp" />
+
+
+    <ListView
+
+        android:id="@+id/lobbieslistview"
+        android:layout_width="280dp"
+        android:layout_height="270dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="190dp"
+
+        />
+
+
+    <Button
+        android:id="@+id/createLobbyButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="550dp"
+        android:backgroundTint="@color/black"
+        android:text="Create Lobby"
+
+        android:background="@drawable/custom_button"
+
+        android:radius="50dp"
+        />
+
+
+
+</RelativeLayout>

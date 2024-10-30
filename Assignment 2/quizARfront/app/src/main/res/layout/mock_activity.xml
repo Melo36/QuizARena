@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".MockGameplayActivity">
+
+
+    <Button
+        android:id="@+id/startRound"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="340dp"
+        android:text="Start Round"
+        android:visibility="visible" />
+
+
+    <TextView
+        android:id="@+id/QuestionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/reef"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/SkillText"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="520dp"
+        android:textColor="@color/white"
+        android:textSize="26dp"
+        android:textAlignment="center"
+        android:text="Skills: "
+        android:visibility="gone" />
+
+
+    <Button
+        android:id="@+id/A"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginBottom="-75dp"
+        android:background="@drawable/custom_button"
+        android:backgroundTint="#ffffff"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/B"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/custom_button"
+        android:backgroundTint="#ffffff"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/C"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="425dp"
+        android:background="@drawable/custom_button"
+        android:backgroundTint="#ffffff"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/D"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="425dp"
+        android:background="@drawable/custom_button"
+        android:backgroundTint="#ffffff"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/skillButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="570dp"
+        android:text="Auge machen"
+        android:visibility="gone" />
+</FrameLayout>

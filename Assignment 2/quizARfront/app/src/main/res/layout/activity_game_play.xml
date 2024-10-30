@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GamePlayActivity">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/arFragment"
+        android:name="com.google.ar.sceneform.ux.ArFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:id="@+id/overlayContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/categoryText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="175dp"
+            android:layout_marginTop="75dp"
+            android:fontFamily="@font/reef"
+            android:textColor="@color/black"
+            android:text="Choose a category"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/getQuestionButton"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/custom_button"
+            android:backgroundTint="#ffffff"
+            android:clickable="false"
+            android:visibility="gone"
+            android:text="Get Question" />
+
+        <Button
+            android:id="@+id/category1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/custom_button"
+            android:backgroundTint="#ffffff" />
+
+        <Button
+            android:id="@+id/category2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/custom_button"
+            android:backgroundTint="#ffffff" />
+
+        <Button
+            android:id="@+id/category3"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="350dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/custom_button"
+            android:backgroundTint="#ffffff" />
+
+        <TextView
+            android:id="@+id/QuestionText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="175dp"
+            android:layout_marginTop="200dp"
+            android:fontFamily="@font/reef"
+            android:textColor="@color/black"
+            android:visibility="gone"
+            android:textSize="20sp" />
+
+
+        <Button
+            android:id="@+id/A"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="400dp"
+            android:layout_marginBottom="-75dp"
+            android:background="@drawable/custom_button"
+            android:visibility="gone"
+            android:backgroundTint="#ffffff" />
+
+        <Button
+            android:id="@+id/B"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="400dp"
+            android:background="@drawable/custom_button"
+            android:visibility="gone"
+            android:backgroundTint="#ffffff" />
+
+        <Button
+            android:id="@+id/C"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="525dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/custom_button"
+            android:visibility="gone"
+            android:backgroundTint="#ffffff" />
+
+        <Button
+            android:id="@+id/D"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="525dp"
+            android:layout_marginLeft="230dp"
+            android:background="@drawable/custom_button"
+            android:visibility="gone"
+            android:backgroundTint="#ffffff" />
+
+    </RelativeLayout>
+
+</FrameLayout>
